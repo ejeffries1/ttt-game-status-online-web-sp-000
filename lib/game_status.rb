@@ -26,7 +26,7 @@ def won?(board)
     slot_3 = board[index_2]
 
     if slot_1 == "X" && slot_2 == "X" && slot_3 == "X"
-      return win_combo_X
+      return win_combo
     elsif slot_1 == "O" && slot_2 == "O" && slot_3 == "O"
       return win_combo
     end
@@ -55,5 +55,5 @@ def over?(board)
 end
 
 def winner(board)
-  
+
 end
